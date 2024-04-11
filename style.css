@@ -217,6 +217,12 @@ body{
 table,td,th{
     padding: 8px 8px;
     width: 70vw;
+    
+
+}
+td{
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 td .modifier{

@@ -62,24 +62,6 @@ $(document).ready(function() {
 
         statutCell.html(nextIcon);
     });
-  //   $(document).on("click", ".statut", function() {
-  //     var statutCell = $(this);
-  //     var currentIconClass = statutCell.find('i').attr('class'); // Obtenir la classe de l'icône actuelle
-  //     var nextIconClass;
-  
-  //     // Changer l'icône de la flèche à la croix ou vice versa
-  //     if (currentIconClass === 'fa-solid fa-spinner') {
-  //         nextIconClass = 'fa-solid fa-check';
-  //     } else if (currentIconClass === 'fa-solid fa-check') {
-  //         nextIconClass = 'fa-solid fa-spinner';
-  //     } 
-  
-  //     // Mettre à jour la classe de l'icône
-  //     statutCell.find('i').attr('class', nextIconClass);
-  // });
-  
-
-
 
       // Colonne pour les actions (boutons Supprimer et Modifier)
       var celluleActions = $("<td>");
