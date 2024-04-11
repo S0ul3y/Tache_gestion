@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Liaison du fichier html au css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- liaison de FontAwesome pour les icones -->
+    <link rel="stylesheet" href="fontAwesome/css/all.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>Ajouter une tâche</title>
+</head>
+    <body>
+        
+        <div class="formZone" id="formZone">
+            <a href="#" class="tacheList" id="ListeTache">Liste des tâches</a>
+            <img src="gif.gif" alt="">
+            <div class="Ajout_form"> 
+                <div class="formulaire">
+                    <input type="text" placeholder="Ajouter une tâche" id="Tache">
+                    <input type="date" id="date">
+                    <select name="priorite" id="priorite">
+                        <option value="">_</option>
+                        <option value="Elevée">Elevée</option>
+                        <option value="Moyenne">Moyenne</option>
+                        <option value="Faible">Faible</option>
+                    </select>
+                    
+                    <button id="Ajouter">Ajouter</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="listZone">
+                    <div class="title">
+                      <div><h1>Liste des tâches</h1> <a href="#" id="Ajout">Ajouter une tâche</a></div>
+                  </div>
+                  <div class="list">        
+                      <table id="tableauTaches">
+                          <tr>
+                              <th>Titre</th>
+                              <th>Date début</th>
+                              <th>Priorité / 10</th>
+                              <th>Statut</th>
+                              <th>sup</th>
+                          </tr>
+                      </table>
+                  </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+
+</html>
