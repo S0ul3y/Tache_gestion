@@ -224,6 +224,10 @@ td{
     word-wrap: break-word;
     word-break: break-all;
 }
+td{
+    word-wrap: break-word;
+    word-break: break-all;
+}
 
 td .modifier{
     font-size: 1.2rem;
